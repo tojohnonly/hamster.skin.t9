@@ -1,0 +1,27 @@
+IMG1:
+  rect:
+    x: 0
+    y: 0
+    width: 900
+    height: 57
+
+IMG2:
+  rect:
+    x: 0
+    y: 57
+    width: 900
+    height: 87
+
+IMG3:
+  rect:
+    x: 0
+    y: 144
+    width: 900
+    height: 491
+
+IMG4:
+  rect:
+    x: 0
+    y: 57
+    width: 900
+    height: 578
