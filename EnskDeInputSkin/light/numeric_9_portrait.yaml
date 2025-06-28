@@ -507,7 +507,7 @@ returnButtonForegroundStyle:
   backgroundStyle: 1ButtonBackgroundStyle
   foregroundStyle:
     - 1ButtonForegroundStyle
-  action: {character: 1}
+  action: {symbol: 1}
 
 1ButtonBackgroundStyle:
   animation: animation
@@ -522,7 +522,7 @@ returnButtonForegroundStyle:
   backgroundStyle: 4ButtonBackgroundStyle
   foregroundStyle:
     - 4ButtonForegroundStyle
-  action: {character: 4}
+  action: {symbol: 4}
 
 4ButtonBackgroundStyle:
   animation: animation
@@ -537,7 +537,7 @@ returnButtonForegroundStyle:
   backgroundStyle: 7ButtonBackgroundStyle
   foregroundStyle:
     - 7ButtonForegroundStyle
-  action: {character: 7}
+  action: {symbol: 7}
 
 7ButtonBackgroundStyle:
   animation: animation
@@ -568,7 +568,7 @@ symbolButtonForegroundStyle:
   backgroundStyle: 2ButtonBackgroundStyle
   foregroundStyle:
     - 2ButtonForegroundStyle
-  action: {character: 2}
+  action: {symbol: 2}
 
 2ButtonBackgroundStyle:
   animation: animation
@@ -583,7 +583,7 @@ symbolButtonForegroundStyle:
   backgroundStyle: 5ButtonBackgroundStyle
   foregroundStyle:
     - 5ButtonForegroundStyle
-  action: {character: 5}
+  action: {symbol: 5}
 
 5ButtonBackgroundStyle:
   animation: animation
@@ -598,7 +598,7 @@ symbolButtonForegroundStyle:
   backgroundStyle: 8ButtonBackgroundStyle
   foregroundStyle:
     - 8ButtonForegroundStyle
-  action: {character: 8}
+  action: {symbol: 8}
 
 8ButtonBackgroundStyle:
   animation: animation
@@ -613,7 +613,7 @@ symbolButtonForegroundStyle:
   backgroundStyle: 0ButtonBackgroundStyle
   foregroundStyle:
     - 0ButtonForegroundStyle
-  action: {character: 0}
+  action: {symbol: 0}
 
 0ButtonBackgroundStyle:
   animation: animation
@@ -628,7 +628,7 @@ symbolButtonForegroundStyle:
   backgroundStyle: 3ButtonBackgroundStyle
   foregroundStyle:
     - 3ButtonForegroundStyle
-  action: {character: 3}
+  action: {symbol: 3}
 
 3ButtonBackgroundStyle:
   animation: animation
@@ -643,7 +643,7 @@ symbolButtonForegroundStyle:
   backgroundStyle: 6ButtonBackgroundStyle
   foregroundStyle:
     - 6ButtonForegroundStyle
-  action: {character: 6}
+  action: {symbol: 6}
 
 6ButtonBackgroundStyle:
   animation: animation
@@ -658,7 +658,7 @@ symbolButtonForegroundStyle:
   backgroundStyle: 9ButtonBackgroundStyle
   foregroundStyle:
     - 9ButtonForegroundStyle
-  action: {character: 9}
+  action: {symbol: 9}
 
 9ButtonBackgroundStyle:
   animation: animation
@@ -672,7 +672,7 @@ symbolButtonForegroundStyle:
 periodButton:
   backgroundStyle: periodButtonBackgroundStyle
   foregroundStyle: periodButtonForegroundStyle
-  action: {character: .}
+  action: {symbol: .}
 
 periodButtonBackgroundStyle:
   animation: animation
