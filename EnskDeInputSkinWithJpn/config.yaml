@@ -9,10 +9,10 @@ fontFace:
 pinyin:
   iPhone:
     portrait: pinyin_9_portrait
-    landscape: pinyin_26_landscape
+    landscape: pinyin_26_portrait
   iPad:
     portrait: pinyin_26_portrait
-    landscape: pinyin_26_landscape
+    landscape: pinyin_26_portrait
     floating: pinyin_26_portrait
 
 # 日语键盘
@@ -30,46 +30,46 @@ japanese:
 alphabetic:
   iPhone:
     portrait: alphabetic_26_portrait
-    landscape: alphabetic_26_landscape
+    landscape: alphabetic_26_portrait
   iPad:
     portrait: alphabetic_26_portrait
-    landscape: alphabetic_26_landscape
+    landscape: alphabetic_26_portrait
     floating: alphabetic_26_portrait
 
 # 数字键盘
 numeric:
   iPhone:
     portrait: numeric_9_portrait
-    landscape: pinyin_26_landscape
+    landscape: numeric_9_portrait
   iPad:
     portrait: numeric_9_portrait
-    landscape: pinyin_26_landscape
+    landscape: numeric_9_portrait
     floating: numeric_9_portrait
 
 # 符号键盘
 symbolic:
   iPhone:
     portrait: symbolic_portrait
-    landscape: symbolic_landscape
+    landscape: symbolic_portrait
   iPad:
     portrait: symbolic_portrait
-    landscape: symbolic_landscape
+    landscape: symbolic_portrait
     floating: symbolic_portrait
 
 # 设置浮动键盘
 floatconfig:
   iPhone:
     portrait: floatconfig_portrait
-    landscape: floatconfig_landscape
+    landscape: floatconfig_portrait
 
 #表情键盘
 emoji:
   iPhone:
     portrait: emoji_portrait
-    landscape: emoji_landscape
+    landscape: emoji_portrait
   iPad:
     portrait: emoji_portrait
-    landscape: emoji_landscape
+    landscape: emoji_portrait
     floating: emoji_portrait
 
 keySounds:
