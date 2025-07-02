@@ -176,15 +176,15 @@ enter前景1: &enter_qj1
   center:
     y: 0.82
   fontSize: 0.94em
-  normalColor: *enter_textcolor1
-  highlightColor: *enter_textcolor1
+  normalColor: *key_textcolor1
+  highlightColor: *key_textcolor1
 
 enter前景2: &enter_qj2
   center:
     y: 0.82
   fontSize: 0.94em
-  normalColor: *enter_textcolor2
-  highlightColor: *enter_textcolor1
+  normalColor: *key_textcolor1
+  highlightColor: *key_textcolor1
 
 Shift及Backspace与字母键间隙: &boundswidth 85/100
 
