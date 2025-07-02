@@ -1,3 +1,5 @@
+rimeSchema: t9
+
 预编辑区高度: &preedit_Height 23
 工具栏高度: &toolbar_Height 30
 键盘区高度: &keyboard_Height 230
@@ -3232,7 +3234,7 @@ cnenButton:
   foregroundStyle:
     - cnenButtonForegroundStyle
   action: {keyboardType: alphabetic}
-  swipeUpAction: {shortcutCommand: '#中英切换'}
+  swipeUpAction: {keyboardType: japanese}
   swipeDownAction: {shortcutCommand: '#简繁切换'}
   holdSymbolsStyle: cnenButtonHoldSymbolsStyle
 
@@ -3256,17 +3258,13 @@ cnenButtonHoldSymbolsStyle:
     - cnenButtonHoldSymbolsForegroundStyle0
     - cnenButtonHoldSymbolsForegroundStyle1
   actions:
-    - {shortcutCommand: '#中英切换'}
+    - {keyboardType: japanese}
     - {shortcutCommand: '#简繁切换'}
   selectedStyle: alphabeticHoldSymbolsSelectedStyle
   selectedIndex: 1
 
 cnenButtonHoldSymbolsForegroundStyle0:
-  text: |-
-    // JavaScript
-    function getText() {
-      return $getRimeOptionState("ascii_mode") ? "中" : "英";
-    }
+  text: 日
   <<: *iaqp
 
 cnenButtonHoldSymbolsForegroundStyle1:
