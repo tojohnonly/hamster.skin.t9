@@ -912,7 +912,7 @@ cnenButtonHoldSymbolsStyle:
     - {keyboardType: japanese}
     - {shortcutCommand: '#简繁切换'}
   selectedStyle: alphabeticHoldSymbolsSelectedStyle
-  selectedIndex: 1
+  selectedIndex: 0
 
 cnenButtonHoldSymbolsForegroundStyle0:
   text: 日
