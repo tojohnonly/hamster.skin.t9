@@ -3324,6 +3324,7 @@ cnenButton:
     - cnenButtonForegroundStyle
   action: {keyboardType: pinyin}
   swipeUpAction: {shortcutCommand: '#中英切换'}
+  swipeDownAction: {shortcutCommand: '#简繁切换'}
   holdSymbolsStyle: cnenButtonHoldSymbolsStyle
 
 cnenButtonBackgroundStyle:
@@ -3344,15 +3345,26 @@ cnenButtonHoldSymbolsStyle:
   backgroundStyle: alphabeticHoldSymbolsBackgroundStyle
   foregroundStyle:
     - cnenButtonHoldSymbolsForegroundStyle0
+    - cnenButtonHoldSymbolsForegroundStyle1
   actions:
     - {shortcutCommand: '#中英切换'}
+    - {shortcutCommand: '#简繁切换'}
   selectedStyle: alphabeticHoldSymbolsSelectedStyle
+  selectedIndex: 1
 
 cnenButtonHoldSymbolsForegroundStyle0:
   text: |-
     // JavaScript
     function getText() {
-      return $getRimeOptionState("ascii_mode") ? "日" : "英";
+      return $getRimeOptionState("ascii_mode") ? "中" : "英";
+    }
+  <<: *iaqp
+
+cnenButtonHoldSymbolsForegroundStyle1:
+  text: |-
+    // JavaScript
+    function getText() {
+      return $getRimeOptionState("traditionalization") ? "简" : "繁";
     }
   <<: *iaqp
 
