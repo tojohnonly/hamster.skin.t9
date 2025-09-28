@@ -56,7 +56,7 @@ rimeSchema: t9
   type: original
   normalColor: FCFCFE
   highlightColor: FCFCFE
-  cornerRadius: 5
+  cornerRadius: 8
   normalLowerEdgeColor: 0000004D
   highlightLowerEdgeColor: 0000004D
   borderSize: 0.2
@@ -68,7 +68,7 @@ rimeSchema: t9
   type: original
   normalColor: FCFCFE
   highlightColor: B7BCC4
-  cornerRadius: 5
+  cornerRadius: 8
   normalLowerEdgeColor: 0000004D
   highlightLowerEdgeColor: 0000004D
   borderSize: 0.2
@@ -80,7 +80,7 @@ rimeSchema: t9
   type: original
   normalColor: B7BCC4
   highlightColor: FCFCFE
-  cornerRadius: 5
+  cornerRadius: 8
   normalLowerEdgeColor: 0000004D
   highlightLowerEdgeColor: 0000004D
   borderSize: 0.2
@@ -92,7 +92,7 @@ rimeSchema: t9
   type: original
   normalColor: B7BCC4
   highlightColor: FCFCFE
-  cornerRadius: 5
+  cornerRadius: 8
   normalLowerEdgeColor: 0000004D
   highlightLowerEdgeColor: 0000004D
   borderSize: 0.2
@@ -192,8 +192,8 @@ Shift及Backspace与字母键间隙: &boundswidth 85/100
 alphabeticHintBackgroundStyle:
   type: original
   normalColor: FCFCFE
-  topCornerRadius: 5
-  bottomCornerRadius: 5
+  topcornerRadius: 8
+  bottomcornerRadius: 8
   shadowColor: 797B7E
   shadowOffset: {x: 0, y: 5}
 
@@ -201,8 +201,8 @@ alphabeticHintBackgroundStyle:
 alphabeticHoldSymbolsBackgroundStyle:
   type: original
   normalColor: FCFCFE
-  topCornerRadius: 5
-  bottomCornerRadius: 5
+  topcornerRadius: 8
+  bottomcornerRadius: 8
   shadowColor: 797B7E
   shadowOffset: {x: 0, y: 5}
 
@@ -210,7 +210,7 @@ alphabeticHoldSymbolsBackgroundStyle:
 alphabeticHoldSymbolsSelectedStyle:
   type: original
   normalColor: 23c891
-  cornerRadius: 5
+  cornerRadius: 8
 
 #按下气泡字符样式
 ButtonHintForeground: &axqp
@@ -459,7 +459,7 @@ verticalCandidateStyle:
 
 verticalCandidateOfCandidateStyle:
   insets: {top: 3, bottom: 6, left: 8, right: 8}
-  cornerRadius: 5
+  cornerRadius: 8
   backgroundColor: *zkhxbj
   separatorColor: 00000000
   highlightBackgroundColor: 00000000

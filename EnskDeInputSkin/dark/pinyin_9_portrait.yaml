@@ -53,14 +53,14 @@ rimeSchema: t9
   insets: *insets
   type: original
   normalColor: BBBBBB66
-  cornerRadius: 4
+  cornerRadius: 8
 
 字符键背景: &key_bg
   insets: *insets
   type: original
   normalColor: BBBBBB66
   highlightColor: '66666666'
-  cornerRadius: 5
+  cornerRadius: 8
   normalLowerEdgeColor: 00000099
   highlightLowerEdgeColor: 00000099
   borderSize: 0.2
@@ -72,7 +72,7 @@ rimeSchema: t9
   type: original
   normalColor: '55555566'
   highlightColor: BBBBBB66
-  cornerRadius: 5
+  cornerRadius: 8
   normalLowerEdgeColor: 00000099
   highlightLowerEdgeColor: 00000099
   borderSize: 0.2
@@ -84,7 +84,7 @@ rimeSchema: t9
   type: original
   normalColor: '55555566'
   highlightColor: BBBBBB66
-  cornerRadius: 5
+  cornerRadius: 8
   normalLowerEdgeColor: 00000099
   highlightLowerEdgeColor: 00000099
   borderSize: 0.2
@@ -394,7 +394,7 @@ verticalCandidateStyle:
 
 verticalCandidateOfCandidateStyle:
   insets: {top: 3, bottom: 6, left: 8, right: 8}
-  cornerRadius: 5
+  cornerRadius: 8
   backgroundColor: *zkhxbj
   separatorColor: 00000000
   highlightBackgroundColor: 00000000

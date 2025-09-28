@@ -58,14 +58,14 @@ rimeSchema: t9
   insets: *insets
   type: original
   normalColor: FCFCFE
-  cornerRadius: 4
+  cornerRadius: 8
 
 字符键背景: &key_bg
   insets: *insets
   type: original
   normalColor: FCFCFE
   highlightColor: B7BCC4
-  cornerRadius: 5
+  cornerRadius: 8
   normalLowerEdgeColor: 0000004D
   highlightLowerEdgeColor: 0000004D
   borderSize: 0.2
@@ -77,7 +77,7 @@ rimeSchema: t9
   type: original
   normalColor: B7BCC4
   highlightColor: FCFCFE
-  cornerRadius: 5
+  cornerRadius: 8
   normalLowerEdgeColor: 0000004D
   highlightLowerEdgeColor: 0000004D
   borderSize: 0.2
@@ -89,7 +89,7 @@ rimeSchema: t9
   type: original
   normalColor: B7BCC4
   highlightColor: FCFCFE
-  cornerRadius: 5
+  cornerRadius: 8
   normalLowerEdgeColor: 0000004D
   highlightLowerEdgeColor: 0000004D
   borderSize: 0.2
@@ -178,8 +178,8 @@ enter前景2: &enter_qj2
 alphabeticHintBackgroundStyle:
   type: original
   normalColor: FCFCFE
-  topCornerRadius: 5
-  bottomCornerRadius: 5
+  topcornerRadius: 8
+  bottomcornerRadius: 8
   shadowColor: 797B7E
   shadowOffset: {x: 0, y: 5}
 
@@ -187,8 +187,8 @@ alphabeticHintBackgroundStyle:
 alphabeticHoldSymbolsBackgroundStyle:
   type: original
   normalColor: FCFCFE
-  topCornerRadius: 5
-  bottomCornerRadius: 5
+  topcornerRadius: 8
+  bottomcornerRadius: 8
   shadowColor: 797B7E
   shadowOffset: {x: 0, y: 5}
 
@@ -196,7 +196,7 @@ alphabeticHoldSymbolsBackgroundStyle:
 alphabeticHoldSymbolsSelectedStyle:
   type: original
   normalColor: 23c891
-  cornerRadius: 5
+  cornerRadius: 8
 
 #按下气泡字符样式
 ButtonHintForeground: &axqp
@@ -445,7 +445,7 @@ verticalCandidateStyle:
 
 verticalCandidateOfCandidateStyle:
   insets: {top: 3, bottom: 6, left: 8, right: 8}
-  cornerRadius: 5
+  cornerRadius: 8
   backgroundColor: *zkhxbj
   separatorColor: 00000000
   highlightBackgroundColor: 00000000
