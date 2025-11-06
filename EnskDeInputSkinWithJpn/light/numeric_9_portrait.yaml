@@ -379,9 +379,9 @@ verticalCandidateOfCandidateStyle:
   separatorColor: 00000000
   highlightBackgroundColor: 00000000
   preferredBackgroundColor: 00000000
-  preferredIndexColor: *text_Color
-  preferredTextColor: *text_Color
-  preferredCommentColor: *text_Color
+  preferredIndexColor: *textfirst_color
+  preferredTextColor: *textfirst_color
+  preferredCommentColor: *textfirst_color
   indexColor: *text_Color
   textColor: *text_Color
   commentColor: *text_Color

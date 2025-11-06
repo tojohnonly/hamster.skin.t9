@@ -13,7 +13,7 @@ rimeSchema: t9
 展开注释字体大小: &FontSize_xlvu 0.75em
 
 编码色: &preedit_textColor FEFEFE
-首选色: &textfirst_color FEFEFE
+首选色: &textfirst_color 752E9B
 次选色: &text_Color FEFEFE
 首选背景色: &textfirstBackgroundColor bbbbbb00
 
@@ -399,9 +399,9 @@ verticalCandidateOfCandidateStyle:
   separatorColor: 00000000
   highlightBackgroundColor: 00000000
   preferredBackgroundColor: 00000000
-  preferredIndexColor: *text_Color
-  preferredTextColor: *text_Color
-  preferredCommentColor: *text_Color
+  preferredIndexColor: *textfirst_color
+  preferredTextColor: *textfirst_color
+  preferredCommentColor: *textfirst_color
   indexColor: *text_Color
   textColor: *text_Color
   commentColor: *text_Color
