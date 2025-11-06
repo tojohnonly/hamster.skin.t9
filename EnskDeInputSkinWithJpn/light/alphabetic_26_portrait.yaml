@@ -242,37 +242,37 @@ ButtonHoldSymbolsOfqForeground: &iaqp
 #预编辑区背景
 preeditBackgroundStyle:
   normalImage:
-    file: bg
+    file: tm
     image: IMG1
   highlightImage:
-    file: bg
+    file: tm
     image: IMG1
 
 #工具栏背景
 toolbarBackgroundStyle:
   normalImage:
-    file: bg
+    file: tm
     image: IMG2
   highlightImage:
-    file: bg
+    file: tm
     image: IMG2
 
 #键盘区背景
 keyboardBackgroundStyle:
   normalImage:
-    file: bg
+    file: tm
     image: IMG3
   highlightImage:
-    file: bg
+    file: tm
     image: IMG3
 
 #展开后选背景
 verticalCandidateBackgroundStyle:
   normalImage:
-    file: bg
+    file: tm
     image: IMG4
   highlightImage:
-    file: bg
+    file: tm
     image: IMG4
 
 #按键背景动画
