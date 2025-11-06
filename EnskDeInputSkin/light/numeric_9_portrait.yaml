@@ -15,7 +15,7 @@ rimeSchema: rime_ice
 编码色: &preedit_textColor '000000'
 首选色: &textfirst_color '000000'
 次选色: &text_Color '000000'
-首选背景色: &textfirstBackgroundColor F8F9F9
+首选背景色: &textfirstBackgroundColor F8F9F900
 
 按键字符正常色: &key_textcolor1 '000000'
 按键字符高亮色: &key_textcolor1_press '000000'

@@ -13,7 +13,7 @@
 编码色: &preedit_textColor FEFEFE
 首选色: &textfirst_color FEFEFE
 次选色: &text_Color FEFEFE
-首选背景色: &textfirstBackgroundColor bbbbbb66
+首选背景色: &textfirstBackgroundColor bbbbbb00
 
 按键字符正常色: &key_textcolor1 FEFEFE
 返回键字符色1: &return_textcolor1 FEFEFE
