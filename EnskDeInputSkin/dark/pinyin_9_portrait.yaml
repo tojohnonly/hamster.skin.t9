@@ -448,6 +448,8 @@ verticalCandidateBackspaceButtonForegroundStyle:
 
 keyboardLayout:
     - VStack:
+        style: VStackStyle0
+    - VStack:
         style: VStackStyle1
         subviews:
           - HStack:
@@ -485,17 +487,25 @@ keyboardLayout:
           - Cell: backspaceButton
           - Cell: clearButton
           - Cell: enterButton
+    - VStack:
+        style: VStackStyle100
 
 keyboardStyle:
   insets: {top: 2, bottom: 1}
   backgroundStyle: keyboardBackgroundStyle
 
+VStackStyle0:
+  size:
+    width: 0.1/10
 VStackStyle1:
   size:
-    width: 8.3/10
+    width: 8.2/10
 VStackStyle2:
   size:
-    width: 1.7/10
+    width: 1.6/10
+VStackStyle100:
+  size:
+    width: 0.1/10
 
 VStackStyle3:
   size:
