@@ -1,8 +1,8 @@
 rimeSchema: japanese
 
-预编辑区高度: &preedit_Height 23
-工具栏高度: &toolbar_Height 30
-键盘区高度: &keyboard_Height 230
+预编辑区高度: &preedit_Height 28
+工具栏高度: &toolbar_Height 35
+键盘区高度: &keyboard_Height 235
 
 编码字体大小: &FontSize_preedit 0.88em
 横排序号字体大小: &FontSize_hpxh 1.19em
